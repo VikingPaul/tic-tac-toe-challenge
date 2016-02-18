@@ -8,9 +8,13 @@ function tester() {
   var three1 = document.getElementById('three1').innerHTML
   var three2 = document.getElementById('three2').innerHTML
   var three3 = document.getElementById('three3').innerHTML
-  if ((one1 && one2 && one3) || (two1 && two2 && two3) || (three3 && three2 && three1) || (one1 && two1 && three1) || (one2 && two2 && three2) || (one3 && two3 && three3) || (one1 && two2 && three3) || (one3 && two2 && three1)) {
-    alert("CONGRATS! You Won!")
-  };
+  if ((one1 === "X" && one2 === "X" && one3 === "X") || (two1 === "X" && two2 === "X" && two3 === "X") || (three3 === "X" && three2 === "X" && three1 === "X") || (one1 === "X" && two1 === "X" && three1 === "X") || (one2 === "X" && two2 === "X" && three2 === "X") || (one3 === "X" && two3 === "X" && three3 === "X") || (one1 === "X" && two2 === "X" && three3=== "X") || (one3 === "X" && two2 === "X" && three1=== "X")) {
+    alert("CONGRATS! X Won!")
+  } else if ((one1 === "O" && one2 === "O" && one3 === "O") || (two1 === "O" && two2 === "O" && two3 === "O") || (three3 === "O" && three2 === "O" && three1 === "O") || (one1 === "O" && two1 === "O" && three1 === "O") || (one2 === "O" && two2 === "O" && three2 === "O") || (one3 === "O" && two3 === "O" && three3 === "O") || (one1 === "O" && two2 === "O" && three3=== "O") || (one3 === "O" && two2 === "O" && three1=== "O")) {
+    alert("CONGRATS! O Won!")
+  } else if (one1 != "" && one2 != "" && one3 != "" && two1 != "" && two2 != "" && two3 != "" && three1 != "" && three2 != "" && three3 != "") {
+    alert("Tie Game. Sorry.")
+  }
 }
 var clicky = document.getElementById('table')
 var turn = true
