@@ -4,3 +4,11 @@ td {
   font-size: 44px;
   text-align: center;
 }
+table {
+  margin: auto;
+}
+div {
+  margin-top: 10px;
+  text-align: center;
+  visibility: hidden;
+}
