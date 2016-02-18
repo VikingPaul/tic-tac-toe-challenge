@@ -1,6 +1,6 @@
 body {
   background-color: green;
-  text-shadow: black 2px 2px;
+  text-shadow: black 2px 2px 2px;
 }
 td {
   width: 55px;
@@ -29,4 +29,5 @@ button {
   text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
   color: #FFFFFF;
   background-color: slategray;
+  box-shadow: 2px 2px 5px black;
 }
