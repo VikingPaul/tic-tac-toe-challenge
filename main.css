@@ -4,10 +4,11 @@ body {
 }
 p {
   margin: 40px;
-  font-size: 6em;
+  font-size: 100px;
   text-align: center;
   color: white;
   text-shadow: slategrey 5px 5px 4px;
+  border-bottom: 5px solid white;
 }
 td {
   width: 55px;
@@ -38,4 +39,16 @@ button {
   color: #FFFFFF;
   background-color: slategray;
   box-shadow: 2px 2px 5px darkgray;
+}
+#player1 {
+  float: left;
+  color: red;
+  font-size: 100px;
+  text-shadow: slategrey 5px 5px 4px;
+}
+#player2 {
+  float: right;
+  color: blue;
+  font-size: 100px;
+  text-shadow: slategrey 5px 5px 4px;
 }
