@@ -1,6 +1,13 @@
 body {
-  background-color: green;
+  background-color: black;
   text-shadow: black 2px 2px 2px;
+}
+p {
+  margin: 40px;
+  font-size: 6em;
+  text-align: center;
+  color: white;
+  text-shadow: slategrey 5px 5px 4px;
 }
 td {
   width: 55px;
@@ -9,10 +16,11 @@ td {
   text-align: center;
 }
 table {
+  background-color: green;
   margin: auto;
 }
 div {
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: center;
   visibility: hidden;
 }
@@ -29,5 +37,5 @@ button {
   text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
   color: #FFFFFF;
   background-color: slategray;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 2px 2px 5px darkgray;
 }
